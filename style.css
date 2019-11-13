@@ -1,0 +1,16 @@
+body {
+
+}
+
+header {
+    width: 375px;
+    height: 508px;
+    border: 1px solid white;
+}
+
+.circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 162px;
+    height: 162px;
+}
