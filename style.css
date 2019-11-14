@@ -1,16 +1,67 @@
 body {
-
+    background-color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
 }
 
+/* font-family: 'Roboto', sans-serif; */
+
 header {
-    width: 375px;
-    height: 508px;
-    border: 1px solid white;
+    height: 400px;
+    background-image: url("header_snowflake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 16px;
+}
+
+nav a {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
 .circle {
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 50%;
     width: 162px;
     height: 162px;
+}
+
+.introduction {
+    background-color: #f4f4f4;
+}
+
+.tech {
+    background-color: #ffffff;
+}
+
+.featured-projects {
+    background-color: #f4f4f4;
+}
+
+.my-thoughts {
+    background-color: #ffffff;
+}
+
+.skills {
+    background-color: #f4f4f4;
+}
+
+.for-more {
+    background-color: #ffffff;
+}
+
+footer {
+    height: 150px;
+    color: white;
+    background-color: #23374d;
 }
