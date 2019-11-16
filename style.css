@@ -7,22 +7,23 @@ body {
 
 header {
     height: 400px;
-    background-image: url("header_snowflake.jpg");
+    background-image: url("assets/header_snowflake.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    
 }
 
-.navbar {
+.header-icons-bar {
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0 16px;
+    padding: 0 16px; 
 }
+.header-icons img {
+} 
 
-nav a {
+a {
     border: 2px solid white;
     border-radius: 50%;
     width: 40px;
@@ -58,6 +59,30 @@ nav a {
 
 .for-more {
     background-color: #ffffff;
+}
+
+.h2-negative{
+    display: inline-block;
+    background-color: #23374d;
+    color: white;
+    padding: 2px 10px;
+    font-weight: bold;
+}
+
+.h2-positive {
+    color: #23374d;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    background-color: #1089FF ;
+    color: white;
+    padding: 2px 5px;
 }
 
 footer {
