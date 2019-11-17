@@ -8,31 +8,31 @@
     <link rel="stylesheet" href="./style.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
-    <!--<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">-->
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <title>Portfolio Lisa Hammarstrand</title>
 </head>
 
 <header>
-    <section class="header-icons-bar">
-        <section class="header-icons">
-            <a href="https://www.linkedin.com/in/lisahammarstrand/">
-                <img src="assets/iconmonstr-linkedin-1.svg" alt="linkedin">
-            </a>
-            <a href="">
-                <img src="assets/github.svg" alt="github"></a>
-            <a href="">
-                <img src="assets/93ae73c51933403f4cf8512e8cf05115.svg" alt="stackoverflow"></a>
-        </section>
+    <section class="icon-bar-container">
+        <ul class="header-icons-bar">
+            <li class="header-icon"><a href="https://www.linkedin.com/in/lisahammarstrand/">
+                    <img src="assets/iconmonstr-linkedin-1.svg" alt="linkedin">
+                </a></li>
+            <li class="header-icon"><a href="">
+                    <img src="assets/github.svg" alt="github"></a></li>
+            <li class="header-icon"><a href="">
+                    <img src="assets/93ae73c51933403f4cf8512e8cf05115.svg" alt="stackoverflow"></a></li>
+        </ul>
     </section>
-    <div>
-        <p>PORTFOLIO: LISA HAMMARSTRAND</p>
-        <h1>Project manager</h1>
-        <h2>+ touch of coding</h2>
-    </div>
+    <section class="name-title">
+        <section id="portfolio-name">
+            <p id="portfolio">PORTFOLIO: <span id="full-name">LISA HAMMARSTRAND</span></p>
+        </section>
+        <h1 id="title1">project manager</h1>
+        <h2 id="title2">+ touch of coding</h2>
+    </section>
+    <img class="my-picture" src="assets/slack-imgs-1.png" alt="portrait">
 </header>
-<div class="circle">
-    <img src="" alt="">
-</div>
 
 <section class="intro-container">
     <article class="intro-text">
@@ -57,8 +57,8 @@
     <h2 class="h2-negative">FEATURED PROJECTS</h2>
     <section class="featured-project">
         <img src="assets/6156726f09eeb8354e22b0ed869bda59-1.png" alt="weather-app-project">
-        <p>WEATHER APP. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur placeat debitis recusandae
-
+        <p><span id="project-name">WEATHER APP.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur placeat debitis <span id="arrows">>></span>
         </p>
         <ul>
             <li class="tech-label">HTML</li>
@@ -68,7 +68,8 @@
     </section>
     <section class="featured-project">
         <img src="assets/6156726f09eeb8354e22b0ed869bda59-1.png" alt="weather-app-project">
-        <p>WEATHER APP. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur placeat debitis recusandae
+        <p><span id="project-name">WEATHER APP.</span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur placeat debitis <span id="arrows">>></span>
 
         </p>
         <ul>
@@ -82,7 +83,8 @@
 <section class="other-projects-container">
     <h2 class="h2-positive">OTHER PROJECTS</h2>
     <section class="project">
-        <p>WEATHER APP. Lorem ipsum dolor sit amet consectetur adipisicing elit. >>
+        <p><span id="project-name">WEATHER APP.</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span
+                id="arrows">>></span>
         </p>
         <ul>
             <li class="tech-label">HTML</li>
@@ -91,7 +93,8 @@
         </ul>
     </section>
     <section class="project">
-        <p>WEATHER APP. Lorem ipsum dolor sit amet consectetur adipisicing elit. >>
+        <p><span id="project-name">WEATHER APP.</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span
+                id="arrows">>></span>
         </p>
         <ul>
             <li class="tech-label">HTML</li>
@@ -100,7 +103,8 @@
         </ul>
     </section>
     <section class="project">
-        <p>WEATHER APP. Lorem ipsum dolor sit amet consectetur adipisicing elit. >>
+        <p><span id="project-name">WEATHER APP.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. <span
+                id="arrows">>></span>
         </p>
         <ul>
             <li class="tech-label">HTML</li>
@@ -114,30 +118,31 @@
     <h2 class="h2-negative">MY THOUGHTS</h2>
     <article class="main-thoughts">
         <img src="assets/671efedfde84106f4952e1242aba9bc3.png" alt="computer">
-        <p> NOV 2019</p>
+        <p class="date"> NOV 2019</p>
         <h3>Lorem ipsum dolor sit amet consectetur</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae magnam placeat repellendus, autem
+        <p class="thought-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae magnam
+            placeat repellendus, autem
             provident, nesciunt sunt numquam voluptates molestias, voluptatibus eaque excepturi
-            <span>>></span></p>
-        <!--<a href""-->
+            <span id="arrows">>></span></p>
     </article>
 </section>
+
 <section class="more-thoughts">
     <h2 class="h2-positive">MORE THOUGHTS</h2>
     <article class="thought">
-        <p> NOV 2019</p>
+        <p class="date"> NOV 2019</p>
         <h3>Lorem ipsum dolor sit amet consectetur >></h3>
     </article>
     <article class="thought">
-        <p> NOV 2019</p>
+        <p class="date"> NOV 2019</p>
         <h3>Lorem ipsum dolor sit amet consectetur >></h3>
     </article>
     <article class="thought">
-        <p> NOV 2019</p>
+        <p class="date"> NOV 2019</p>
         <h3>Lorem ipsum dolor sit amet consectetur >></h3>
     </article>
     <article class="thought">
-        <p> NOV 2019</p>
+        <p class="date"> NOV 2019</p>
         <h3>Lorem ipsum dolor sit amet consectetur >></h3>
     </article>
 </section>
@@ -183,13 +188,18 @@
 </section>
 
 <section class="more-container">
-    <h2 class="h2-positive">FOR MORE</h2>
+    <h2 id="for-more">FOR MORE</h2>
     <ul class="more-icons-bar">
-        <li class="more-icon"><a href=""><img src="assets/iconmonstr-linkedin-1-1.svg" alt="linkedin-logo"></a>LINKEDIN
+        <li class="more-icon"><a href=""><img src="assets/iconmonstr-linkedin-1-1.svg" alt="linkedin-logo"></a>
+            <p>LINKEDIN</p>
         </li>
-        <li class="more-icon"><a href=""><img src="assets/github-1.svg" alt="github-logo"></a>GITHUB</li>
+        <li class="more-icon"><a href=""><img src="assets/github-1.svg" alt="github-logo"></a>
+            <p>GITHUB</p>
+        </li>
         <li class="more-icon"><a href=""><img src="assets/93ae73c51933403f4cf8512e8cf05115-1.svg"
-                    alt="stackoverflow-logo"></a>STACKOVERFLOW</li>
+                    alt="stackoverflow-logo"></a>
+            <p>STACKOVERFLOW</p>
+        </li>
     </ul>
 </section>
 
