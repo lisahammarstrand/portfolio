@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+#header-top {
     height: 500px;
     background-image: url("assets/header_snowflake.jpg");
     background-size: cover;
@@ -38,10 +38,6 @@ header {
     justify-content: center;
     align-items: center;
 } 
-
-.header-icon:hover {
-    cursor: pointer;
-}
 
 .header-icon img {
     width: 18px;
@@ -137,13 +133,20 @@ header {
     line-height: 1.6;
 }
 
+.section-header-neg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
 .projects-container {
     background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 .featured-project {
@@ -213,6 +216,12 @@ ul {
     font-size: 14px;
 }
 
+.section-header-neg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
 .thoughts-container {
     background-color: #ffffff;
     display: flex;
@@ -288,7 +297,7 @@ h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 .skill-set {
@@ -341,10 +350,6 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.more-icon a:hover {
-    cursor: pointer;
 }
 
 .more-icon img {
@@ -414,3 +419,63 @@ footer {
     margin: 5px 0px;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
+
+@media (min-width: 650px) {
+    #header-top {
+        height: 400px;
+    }
+    .my-picture {
+        left: 450px;
+        top: -40px;
+    }
+    .intro-text {
+        width: 450px;
+        padding: 15px 36px;
+    }
+    .tech-text {
+        width: 450px;
+        padding: 15px 36px;
+    }
+    .projects-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .featured-project {
+        width: 40%;
+        padding: 15px 36px 36px 36px;
+        margin: 0px;
+    }
+    .project {
+        width: 450px;
+    }
+    .thoughts-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 20px 0px;
+    }
+    .main-thoughts {
+        width: 40%px;
+        padding: 15px 36px 36px 36px;
+        margin: 0px;
+    }
+    .thought {
+        width: 450px;
+    }
+    .skills-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .skill-set {
+        width: 200px;
+        padding: 15px 36px 36px 36px;
+    }
+}
+
+
+@media (min-width: 900px) {
+
+}
