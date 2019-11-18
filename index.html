@@ -32,7 +32,12 @@
             <h1 id="title1">project manager</h1>
             <h2 id="title2">+ touch of coding</h2>
         </section>
-        <img class="my-picture" src="assets/slack-imgs-1.png" alt="portrait">
+        <!--<img class="my-picture" src="assets/slack-imgs-1.png" alt="portrait">-->
+        <picture class="my-picture">
+            <source media="(min-width: 650px)" srcset="assets/slack-imgs-1.png">
+            <source media="(min-width: 900px)" srcset="assets/slack-imgs-1@2.png">
+            <img src="assets/slack-imgs-1.png" alt="portrait">
+        </picture>
     </header>
 
     <section class="intro-container">
@@ -59,7 +64,7 @@
     </header>
     <section class="projects-container">
         <section class="featured-project">
-            <img src="assets/6156726f09eeb8354e22b0ed869bda59-1.png" alt="weather-app-project">
+            <img src="assets/weather_app_small.png" alt="weather-app-project">
             <p><span class="project-name">WEATHER APP.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequuntur placeat debitis <span class="arrows">>></span>
             </p>
@@ -70,7 +75,7 @@
             </ul>
         </section>
         <section class="featured-project">
-            <img src="assets/6156726f09eeb8354e22b0ed869bda59-1.png" alt="weather-app-project">
+            <img src="assets/weather_app_small.png" alt="weather-app-project">
             <p><span class="project-name">WEATHER APP.</span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequuntur placeat debitis <span class="arrows">>></span>
 
@@ -122,14 +127,14 @@
     </header>
     <section class="thoughts-container">
         <article class="main-thoughts">
-            <img src="assets/671efedfde84106f4952e1242aba9bc3.png" alt="computer">
+            <img src="assets/computer@2x.png" alt="computer">
             <p class="date"> NOV 2019</p>
             <h3>Lorem ipsum dolor sit amet consectetur</h3>
             <p class="thought-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae magnam
                 placeat repellendus<span class="arrows"> >></span></p>
         </article>
         <article class="main-thoughts">
-            <img src="assets/671efedfde84106f4952e1242aba9bc3.png" alt="computer">
+            <img src="assets/thoughts2@2x.png" alt="alarm-clock">
             <p class="date"> NOV 2019</p>
             <h3>Lorem ipsum dolor sit amet consectetur</h3>
             <p class="thought-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae magnam
@@ -141,19 +146,19 @@
         <h2 class="h2-positive">MORE THOUGHTS</h2>
         <article class="thought">
             <p class="date"> NOV 2019</p>
-            <h3>Lorem ipsum dolor sit amet consectetur >></h3>
+            <h3>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit >></h3>
         </article>
         <article class="thought">
             <p class="date"> NOV 2019</p>
-            <h3>Lorem ipsum dolor sit amet consectetur >></h3>
+            <h3>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit >></h3>
         </article>
         <article class="thought">
             <p class="date"> NOV 2019</p>
-            <h3>Lorem ipsum dolor sit amet consectetur >></h3>
+            <h3>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit >></h3>
         </article>
         <article class="thought">
             <p class="date"> NOV 2019</p>
-            <h3>Lorem ipsum dolor sit amet consectetur >></h3>
+            <h3>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit >></h3>
         </article>
     </section>
 
@@ -169,8 +174,6 @@
                 <li>JavaScript ES6</li>
                 <li>GitHub</li>
             </ul>
-        </section>
-        <section class="skill-set">
             <h4 class="h4-positive">UPCOMING</h4>
             <ul>
                 <li>React</li>

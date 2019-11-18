@@ -475,7 +475,35 @@ a:hover {
     }
 }
 
-
 @media (min-width: 900px) {
+    .my-picture {
+        left: 700px;
+        top: -110px;
+        width: 332px;
+        height: 332px;
+        border: none;
+}
+.intro-text {
+    width: 650px;
+}
+.tech-text {
+    width: 650px;
+}
+.featured-project {
+    width: 30%;
+}
+.project {
+    width: 650px;
+}
+.main-thoughts {
+    width: 30%px;
+}
+.thought {
+    width: 650px;
+}
 
+.skill-set {
+    width: 200px;
+    padding: 15px 36px 36px 36px;
+}
 }
