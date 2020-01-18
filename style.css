@@ -164,10 +164,11 @@ body {
     margin: 20px 0px;
 }
 
-.feat-project img {
+.featured-project img {
     width: 100%;
-    height: 180px;
+    height: 180px; 
     padding: 5px;
+    object-fit: cover;
 }
 
 .other-projects-container {
@@ -248,6 +249,7 @@ ul {
 .main-thoughts img {
     width: 100%;
     height: 180px;
+    object-fit: cover;
 }
 
 .more-thoughts {
