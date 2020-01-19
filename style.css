@@ -10,6 +10,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    position: relative;
 }
 
 .icon-bar-container {
@@ -84,9 +85,9 @@ body {
 }
 
 .my-picture {
-    position: relative;
-    left: 185px;
-    top: 50px;
+    position: absolute;
+    top: 360px;
+    right: 36px;
     border: 2px solid white;
     border-radius: 50%;
     width: 162px;
@@ -431,8 +432,7 @@ a:hover {
         height: 400px;
     }
     .my-picture {
-        left: 450px;
-        top: -40px;
+        top: 260px;
     }
     .intro-text {
         width: 450px;
@@ -479,11 +479,7 @@ a:hover {
 
 @media (min-width: 900px) {
     .my-picture {
-        left: 700px;
-        top: -110px;
-        width: 332px;
-        height: 332px;
-        border: none;
+        top: 260px;
 }
 .intro-text {
     width: 650px;
