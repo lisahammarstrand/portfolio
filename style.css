@@ -171,6 +171,10 @@ body {
   object-fit: cover;
 }
 
+.featured-project p {
+  padding: 5px;
+}
+
 .other-projects-container {
   display: flex;
   flex-direction: column;
